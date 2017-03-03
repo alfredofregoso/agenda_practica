@@ -15,6 +15,8 @@
 		A362FBD71E66861A00F17354 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A362FBD61E66861A00F17354 /* GoogleService-Info.plist */; };
 		A362FBD91E668D8A00F17354 /* InformationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362FBD81E668D8A00F17354 /* InformationController.swift */; };
 		A362FBDB1E66B6EC00F17354 /* ShowInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362FBDA1E66B6EC00F17354 /* ShowInfoController.swift */; };
+		A362FBDD1E695EFA00F17354 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362FBDC1E695EF900F17354 /* InfoTableViewCell.swift */; };
+		A362FBDF1E6962E100F17354 /* UsuariosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362FBDE1E6962E100F17354 /* UsuariosTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A362FBD61E66861A00F17354 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A362FBD81E668D8A00F17354 /* InformationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationController.swift; sourceTree = "<group>"; };
 		A362FBDA1E66B6EC00F17354 /* ShowInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowInfoController.swift; sourceTree = "<group>"; };
+		A362FBDC1E695EF900F17354 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		A362FBDE1E6962E100F17354 /* UsuariosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuariosTableViewController.swift; sourceTree = "<group>"; };
 		AA75B62866748F30AD582F5B /* Pods-Practica_agenda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practica_agenda.release.xcconfig"; path = "Pods/Target Support Files/Pods-Practica_agenda/Pods-Practica_agenda.release.xcconfig"; sourceTree = "<group>"; };
 		E63D87F41F4C46A5185016BE /* Pods_Practica_agenda.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Practica_agenda.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -67,7 +71,9 @@
 			children = (
 				A362FBC41E6683F100F17354 /* AppDelegate.swift */,
 				A362FBD81E668D8A00F17354 /* InformationController.swift */,
+				A362FBDC1E695EF900F17354 /* InfoTableViewCell.swift */,
 				A362FBDA1E66B6EC00F17354 /* ShowInfoController.swift */,
+				A362FBDE1E6962E100F17354 /* UsuariosTableViewController.swift */,
 				A362FBC81E6683F200F17354 /* Main.storyboard */,
 				A362FBCB1E6683F200F17354 /* Assets.xcassets */,
 				A362FBD61E66861A00F17354 /* GoogleService-Info.plist */,
@@ -219,6 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A362FBD91E668D8A00F17354 /* InformationController.swift in Sources */,
+				A362FBDD1E695EFA00F17354 /* InfoTableViewCell.swift in Sources */,
+				A362FBDF1E6962E100F17354 /* UsuariosTableViewController.swift in Sources */,
 				A362FBDB1E66B6EC00F17354 /* ShowInfoController.swift in Sources */,
 				A362FBC51E6683F100F17354 /* AppDelegate.swift in Sources */,
 			);

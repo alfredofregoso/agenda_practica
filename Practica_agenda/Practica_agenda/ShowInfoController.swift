@@ -17,6 +17,7 @@ class ShowInfoController: UIViewController,UITableViewDelegate, UITableViewDataS
     var ref: FIRDatabaseReference?
     var dataBaseHandle: FIRDatabaseHandle?
     
+    @IBOutlet weak var textView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,8 +30,8 @@ class ShowInfoController: UIViewController,UITableViewDelegate, UITableViewDataS
         //Recuperar los datos
         dataBaseHandle = ref?.child("Usuario").observe(.childAdded, with: { (snapshot) in
             
-            let dataDict = snapshot.value as! [String: Any]
-            print(dataDict)
+            self.postdata = snapshot.value as! [String: Any]
+            //print(self.postdata)
           
             
             
@@ -49,8 +50,23 @@ class ShowInfoController: UIViewController,UITableViewDelegate, UITableViewDataS
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell")
-        return cell!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath as IndexPath) as! InfoTableViewCell
+
+        
+        var arrDict = [String]()
+        
+        for( key, value) in postdata{
+           arrDict.append("\(key):\(value)")
+        }
+        print(arrDict)
+        
+               cell.userLabel.text = arrDict[indexPath.row]
+     
+
+        
+        
+     
+        return cell
     }
     
 
