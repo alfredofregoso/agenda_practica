@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1393811E67435600F8BC63 /* ShowInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1393801E67435600F8BC63 /* ShowInfoTableViewController.swift */; };
+		4D22F1381E67790900B8D291 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D22F1371E67790900B8D291 /* PostCell.swift */; };
+		4D22F13A1E678C5800B8D291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D22F1391E678C5800B8D291 /* Main.storyboard */; };
 		825C828354CD87FF00032670 /* Pods_Practica_agenda.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63D87F41F4C46A5185016BE /* Pods_Practica_agenda.framework */; };
 		A362FBC51E6683F100F17354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A362FBC41E6683F100F17354 /* AppDelegate.swift */; };
-		A362FBCA1E6683F200F17354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A362FBC81E6683F200F17354 /* Main.storyboard */; };
 		A362FBCC1E6683F200F17354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A362FBCB1E6683F200F17354 /* Assets.xcassets */; };
 		A362FBCF1E6683F200F17354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A362FBCD1E6683F200F17354 /* LaunchScreen.storyboard */; };
 		A362FBD71E66861A00F17354 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A362FBD61E66861A00F17354 /* GoogleService-Info.plist */; };
@@ -19,9 +21,11 @@
 
 /* Begin PBXFileReference section */
 		497B6B9A3579E2066DBA1D6C /* Pods-Practica_agenda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practica_agenda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Practica_agenda/Pods-Practica_agenda.debug.xcconfig"; sourceTree = "<group>"; };
+		4D1393801E67435600F8BC63 /* ShowInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowInfoTableViewController.swift; sourceTree = "<group>"; };
+		4D22F1371E67790900B8D291 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		4D22F1391E678C5800B8D291 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A362FBC11E6683F100F17354 /* Practica_agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practica_agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A362FBC41E6683F100F17354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A362FBC91E6683F200F17354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A362FBCB1E6683F200F17354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A362FBCE1E6683F200F17354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A362FBD01E6683F200F17354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,11 +72,13 @@
 				A362FBC41E6683F100F17354 /* AppDelegate.swift */,
 				A362FBD81E668D8A00F17354 /* InformationController.swift */,
 				A362FBDA1E66B6EC00F17354 /* ShowInfoController.swift */,
-				A362FBC81E6683F200F17354 /* Main.storyboard */,
+				4D22F1391E678C5800B8D291 /* Main.storyboard */,
 				A362FBCB1E6683F200F17354 /* Assets.xcassets */,
 				A362FBD61E66861A00F17354 /* GoogleService-Info.plist */,
 				A362FBCD1E6683F200F17354 /* LaunchScreen.storyboard */,
 				A362FBD01E6683F200F17354 /* Info.plist */,
+				4D1393801E67435600F8BC63 /* ShowInfoTableViewController.swift */,
+				4D22F1371E67790900B8D291 /* PostCell.swift */,
 			);
 			path = Practica_agenda;
 			sourceTree = "<group>";
@@ -159,7 +165,7 @@
 				A362FBCF1E6683F200F17354 /* LaunchScreen.storyboard in Resources */,
 				A362FBD71E66861A00F17354 /* GoogleService-Info.plist in Resources */,
 				A362FBCC1E6683F200F17354 /* Assets.xcassets in Resources */,
-				A362FBCA1E6683F200F17354 /* Main.storyboard in Resources */,
+				4D22F13A1E678C5800B8D291 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,23 +224,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1393811E67435600F8BC63 /* ShowInfoTableViewController.swift in Sources */,
 				A362FBD91E668D8A00F17354 /* InformationController.swift in Sources */,
 				A362FBDB1E66B6EC00F17354 /* ShowInfoController.swift in Sources */,
 				A362FBC51E6683F100F17354 /* AppDelegate.swift in Sources */,
+				4D22F1381E67790900B8D291 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A362FBC81E6683F200F17354 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A362FBC91E6683F200F17354 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A362FBCD1E6683F200F17354 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
